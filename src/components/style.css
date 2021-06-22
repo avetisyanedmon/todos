@@ -1,0 +1,35 @@
+.container_box {
+  width: 40%;
+  min-height: 500px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.input_box {
+  display: flex;
+}
+.input_box input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5%;
+}
+.text_input {
+  width: 60%;
+}
+.input_box button {
+  color: rgb(0, 153, 255);
+  cursor: pointer;
+}
+.todo_box {
+  width: 90%;
+  padding: 15px;
+  margin: 15px auto;
+  background-color: rgb(230, 230, 230);
+  color: rgb(0, 153, 255);
+  cursor: pointer;
+}
+.todo_box:hover {
+  color: rgb(0, 127, 211) ;
+}
